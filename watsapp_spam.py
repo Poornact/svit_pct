@@ -4,7 +4,7 @@
 import pyautogui as py
 import time
 
-message = "I Love You"
+message = "***spam***"
 count = 1
 time.sleep(2)
 
@@ -13,5 +13,5 @@ for i in range(100):
     py.press('Enter')
     count = count + 1
 
-py.typewrite("I Love You 3000")
+py.typewrite("***spam***")
 py.press('Enter')
